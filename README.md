@@ -1,4 +1,5 @@
 Burglar Alarm Arduino Uno
+
 An interactive home security prototype built with an Arduino Uno. This project uses a Passive Infrared (PIR) motion sensor to scan for movement in a room. When motion is detected, the system immediately triggers a visual alert and an audible alarm.
 
 Features
