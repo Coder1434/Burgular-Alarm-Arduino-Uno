@@ -1,2 +1,10 @@
-# Burgular-Alarm-Arduino-Uno
-A simple and effective Arduino Uno burglar alarm project! Uses a PIR motion sensor to detect movement, instantly triggering an LED indicator and a piezo buzzer alarm. Perfect beginner electronics project for home security prototyping.
+An interactive home security prototype built with an Arduino Uno. This project uses a Passive Infrared (PIR) motion sensor to scan for movement in a room. When motion is detected, the system immediately activates an LED warning light and sounds an audible alarm via a buzzer.
+
+Features
+Motion Detection: Uses a PIR sensor on Pin 2 to reliably detect human or pet movement.
+
+Visual Alert: Powers an LED indicator on Pin 3 when movement is sensed.
+
+Audible Alarm: Triggers a 523 Hz (C5) tone on a buzzer connected to Pin 4 using Arduino's built-in tone() function.
+
+Beginner Friendly: Clean, straightforward C++ code utilizing basic digital inputs and outputs.
