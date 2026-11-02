@@ -1,0 +1,39 @@
+Hardware Wiring Guide
+Components Needed
+Arduino Uno board
+
+PIR Motion Sensor (e.g., HC-SR501)
+
+Piezo Buzzer (or speaker)
+
+LED (with a 220Ω–330Ω resistor)
+
+Breadboard and Jumper Wires
+
+Step-by-Step Connections
+Power Rails: Connect the 5V and GND pins on your Arduino to the power rails on your breadboard.
+
+PIR Motion Sensor:
+
+Connect the VCC pin to the 5V rail.
+
+Connect the GND pin to the GND rail.
+
+Connect the Signal / Output pin to Arduino Pin 2.
+
+LED Indicator:
+
+Connect the anode (longer/positive leg) of the LED through a current-limiting resistor to Arduino Pin 3.
+
+Connect the cathode (shorter/negative leg) to the GND rail.
+
+Buzzer:
+
+Connect the positive (red) wire of the buzzer to Arduino Pin 4.
+
+Connect the negative (black) wire to the GND rail.
+
+Tips and Tricks
+PIR Sensor Calibration: Most PIR sensors have two small potentiometers (dials) on the back to adjust sensitivity and time delay (how long the sensor stays HIGH after detecting motion). Adjust these to fine-tune your alarm's response time!
+
+False Triggers: PIR sensors need a brief warmup period (usually 30–60 seconds) when first powered on to stabilize. Keep this in mind during testing if the alarm triggers immediately upon startup.
